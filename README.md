@@ -1,0 +1,3 @@
+# finbots-contructor
+
+bot constructor
