@@ -4,4 +4,4 @@
 //     console.log("🚀 ~ file: index.ts ~ line 7 ~ asyncABC ~ res", res)
 
 // })
-console.log('hello')
+console.log('FinBots: start')
