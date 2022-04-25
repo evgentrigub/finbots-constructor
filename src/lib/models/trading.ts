@@ -5,6 +5,16 @@ export const TINKOFF_REST_SANDBOX = 'https://api-invest.tinkoff.ru/openapi/sandb
 export const TINKOFF_REST_PROD = 'https://api-invest.tinkoff.ru/openapi';
 export const TINKOFF_WSS_URL = 'wss://api-invest.tinkoff.ru/openapi/md/v1/md-openapi/ws';
 
+export interface TradeApiArrays {
+    sandbox: TradeAPI[],
+    prod: TradeAPI[]
+  }
+  export interface TradeAPI {
+    token: string,
+    api: OpenAPI,
+    crons: CronTask[]
+  }
+
 export type OperationTypeFromAdvice = OperationType | 'Nothing';
 
 export enum CronStatus {

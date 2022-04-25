@@ -8,8 +8,8 @@ import { TinkoffService } from './tinkoff.service';
 
 export class CronService {
   constructor(
-    private tinkoffService: TinkoffService,
     private analyzeService: AnalyzeService,
+    private tinkoffService: TinkoffService,
   ) { }
 
   public createCronTask(apiInfo: TradeAPI, ticker: string, strategy: TechAnalyzeStrategy): TradeCron {

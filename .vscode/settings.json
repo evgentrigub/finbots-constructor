@@ -1,5 +1,8 @@
 {
+  "git.ignoreLimitWarning": true,
   "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "editor.tabSize": 2,
+  "prettier.printWidth": 140,
+  "prettier.trailingComma": "es5",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -35,6 +35,7 @@
   "dependencies": {
     "@bitauth/libauth": "^1.17.1",
     "@tinkoff/invest-openapi-js-sdk": "^1.5.0",
+    "config": "^3.3.7",
     "node-cron": "^3.0.0"
   },
   "devDependencies": {
